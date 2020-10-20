@@ -1,0 +1,201 @@
+@font-face {
+	font-family: gamefont;
+	src: url(https://reizu.moe/fonts/Renogare.ttf);
+}
+
+
+
+.hpBSeg {
+    box-shadow: inset 0 -10px 0 0 rgb(0 0 0 / 0%)
+}
+
+
+#healthValue {
+    color: #ffffff;
+    font-size: 31px;
+}
+
+
+
+#healthBar {
+    display: none
+}
+
+
+#healthValueHolder {
+    bottom:-1909%;
+    border-radius: 0px;
+    background-color: rgb(0 0 0 / 0%);
+    margin-bottom: -50px;
+    	position: fixed;
+	left: 1%;
+	top:93%;
+}
+
+
+
+#hudClassIcon {
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: rgb(0 0 0 / 0%)
+}
+
+
+#challIcon {
+    width: 0px;
+    height: 0px;
+
+}
+
+.weapIcon {
+    width: 0px;
+}
+
+.weapKey {
+    color: #fff0;
+}
+
+#ammoDisplay {
+    background-color:transparent;
+    font-size: 31px;
+    letter-spacing: -2px;
+    border-radius: 0px;
+    background-image: none;
+    right:2%;
+	top: 93%;
+   position: fixed;
+}
+
+#ammoIcon {
+    margin-right: 10px;
+    margin-left: 5px;
+    vertical-align: middle;
+    height: 0px
+}
+
+#chatInput {
+	background-color: #00000021 !important;
+	font-size: 16px;
+}
+
+#chatInput::placeholder {
+	color: rgb(255 255 255 / 0%) !important;
+}
+
+.chatItem {
+	border-radius: 0;
+	background-color: #00000000 !important;
+}
+
+#voiceDisplay {
+	display: none;
+}
+
+#curGameInfo {
+	display: none;
+}
+
+#chatHolder {
+	background-color: #00000017;
+}
+
+#timerDisplay {
+    display:fixed;
+	text-align: center;
+	top: 6px;
+	left: 0%;
+	width: 150px;
+	height: 20px;
+	padding: 0;
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: var(--ingame-bg-color);
+	will-change: unset;
+}
+
+#timerIcon {
+	display: none;
+}
+
+#endTimer {
+	color: #fff;
+	text-shadow: none;
+	font-style: normal;
+}
+
+#streakCount {
+    position: fixed;
+    top: 93%;
+    left: 30%;
+    background-color: transparent;
+    text-shadow: 2px 2px 3px rgb(30 30 30 / 0%);
+}
+
+#deathCount {
+    position: fixed;
+    top: 93%;
+    left: 25.5%;
+    background-color: transparent;
+    text-shadow: 2px 2px 3px rgb(30 30 30 / 0%);
+}
+
+#killCount {
+    position: fixed;
+    top: 93%;
+    left: 20.5%;
+    background-color: transparent;
+    text-shadow: 2px 2px 3px rgb(30 30 30 / 0%);
+}
+
+#reloadMsg {
+   left:50%;
+	top:93%;
+	background: transparent !important;
+}
+
+#leaderDisplay {
+	border-radius: 0;
+    background-color:transparent
+}
+
+#teamScores {
+	position: fixed;
+	top: 93%;
+	left: 75.50%;
+	transform: translateX(-50%);
+	width: 150px;
+	height: 10px;
+	padding: 10px;
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+#killStreakHolder {
+    position: fixed;
+    left: 50%;
+    top: 93%;
+}
+
+.killStreakItem {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
